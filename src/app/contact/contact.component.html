@@ -1,0 +1,15 @@
+<div class="contact completed">
+    <!-- <div class="contact-date">
+        <span class="day">{{contact.date.toLocaleString('default', {day: 'numeric'})}}</span>
+        <span class="month">{{contact.date.toLocaleString('default', {month: 'short'})}}</span>
+    </div> -->
+    <div class="contact-content">
+        <!-- <span class="data">{{`Name: ${name}\nPhone number: ${number}`}}</span> -->
+        <span class="data">
+            {{ contact.name }}<br>
+            {{ contact.number }}
+        </span>
+
+    </div>
+    <span class="delete-btn" title="delete"></span>
+</div>

@@ -1,0 +1,13 @@
+<h2>New contact</h2>
+    <label for="contentName">Name</label> 
+    <input id="contentName" type="text" #name> 
+
+    <label for="contentNumber">Phone number</label> 
+    <input id="contentNumber" type="text" #number>
+
+    <div id="add-btn" (click)="this.contactsService.addItem(name.value, number.value)">Add contact</div>
+
+
+
+
+

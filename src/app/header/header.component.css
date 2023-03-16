@@ -1,0 +1,11 @@
+.header-cell {
+
+    flex      : 100%;
+    background: white;
+    text-align: center;
+    padding   : 1px;
+    border-top-left-radius: 20px;
+
+}
+
+
